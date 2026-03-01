@@ -1,12 +1,13 @@
  import { useState } from 'react'
 import data from './data'
+ import './style.css'
  
  const Accordian = () => {
   const [selected, setSelected] = useState(null)
 
     const handleSingleSelection = (currentId)=>{
            console.log(currentId)
-           setSelected(currentId)
+           setSelected(currentId === selected ? null : currentId)
     }
     
 
