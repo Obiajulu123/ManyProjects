@@ -37,8 +37,8 @@ filter: drop-shadow(0px 0px 5pc #555);
 }
 .circle-indicator{
 background-color: white;
-height: 15px;
-width: 15px;
+height: 12px;
+width: 12px;
 border-radius: 50%;
 border: none;
 outline: none;
